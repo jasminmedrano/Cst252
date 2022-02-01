@@ -1,3 +1,7 @@
 body {
   background: linear-gradient(to left top, #FBADAE, yellow, #7BC6EB) fixed;
 }
+
+button {
+  font-family: cursive;
+}
