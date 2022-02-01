@@ -1,6 +1,6 @@
 #grad1 {
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   background-color: #ffffff;
   background-image: conic-gradient(#FBADAE, yellow, #7BC6EB);
 }
