@@ -1,3 +1,9 @@
 body {
     background: radial-gradient(circle, #cbfcef, #fccbea) fixed;
 }
+
+h1 {
+  font-family: cursive;
+  color: #fccbea;
+  font-size: 200%;
+}
