@@ -17,6 +17,6 @@ h1 {
 }
 
 p.one {
-  border-style: dotted;
+  border-style: dashed;
   border-color: "#ae8fd9";
 }
