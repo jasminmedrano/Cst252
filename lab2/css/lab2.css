@@ -9,3 +9,7 @@ button {
 h1 {
   font-family: cursive;
 }
+
+.imgButton{
+    text-align:center;
+}
