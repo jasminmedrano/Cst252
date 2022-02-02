@@ -1,5 +1,3 @@
 body {
-background-image: url(https://cdn.inprnt.com/thumbs/10/08/10083d3487c577798f05e0658486ebc6.jpg?response-cache-control=max-age=2628000);
-background-position: right bottom, left top;
-background-repeat: no-repeat, repeat;
+    background: radial-gradient(circle, #cbfcef, #fccbea) fixed;
 }
