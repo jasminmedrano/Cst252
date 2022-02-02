@@ -15,3 +15,8 @@ h1 {
 .imgButton{
     text-align:center;
 }
+
+p.one {
+  border-style: dotted;
+  border-color: "#ae8fd9";
+}
