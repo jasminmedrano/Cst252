@@ -1,3 +1,24 @@
+body {
+  background: linear-gradient(to left top, #FBADAE, yellow, #7BC6EB) fixed;
+  border-style: dashed;
+}
+
+button {
+  font-family: cursive;
+  color: purple;
+}
+
+h1 {
+  font-family: cursive;
+  color: purple;
+  font-size: 200%;
+}
+
+
+.imgButton{
+    text-align:center;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #d4a7f2;
