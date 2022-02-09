@@ -11,11 +11,10 @@
 
 /** jshint {inline configuration here} */
 
-//Wake up
-  //Get out of bed
-    //Go brush teeth with toothpaste and water
-      //Go take a shower
-      //Change into clean clothes
-    //Make yourself a morning breakfast
-  //Have breakfast
-//Clean dishes
+//Go through all the files that are outdated or useless
+  //Free storage by trashing unnecessary files/folders
+    //Name files by following the naming conventions
+      //Create folders or designate a place for all of the files
+    //Organize and order files that are from most important to least
+  //Back up any files
+//Save files and put them in the right place when you first create them for easy access
