@@ -1,15 +1,21 @@
 body {
-  background: linear-gradient(to left top, #FBADAE, pink, #7BC6EB) fixed;
+  background: linear-gradient(to left top, #FBADAE, #fffde8, #7BC6EB) fixed;
   border-style: dashed;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: cursive;
-  color: white;
+  color: black;
   font-size: 200%;
 }
 
 p {
+  font-family: cursive;
+  color: black;
+  font-size: 100%;
+}
+
+ol {
   font-family: cursive;
   color: black;
   font-size: 100%;
