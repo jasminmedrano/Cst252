@@ -1,4 +1,4 @@
 body {
-  background: linear-gradient(black, #F5F5F5, #8E8E8E) fixed;
+  background: linear-gradient(to bottom right, black, #8E8E8E, black) fixed;
   border-style: dashed;
 }
