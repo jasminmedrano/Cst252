@@ -14,7 +14,16 @@ p {
   color: black;
   font-size: 100%;
 }
-
+<style>
+#content {
+  position: relative;
+}
+#content img {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+}
+</style>
 ol {
   font-family: cursive;
   color: black;
