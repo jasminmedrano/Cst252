@@ -3,6 +3,23 @@
 <head>
 	<title>Lab 5: Data Types and Variables</title>
 	<link rel="stylesheet" type="text/css" href="css/lab5.css">
+	<style>
+{
+	  box-sizing: border-box;
+}
+
+	.column {
+	  float: left;
+	  width: 33.33%;
+	  padding: 5px;
+}
+
+	.row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+}
+	</style>
 </head>
 <body>
 	<div class="navbar">
@@ -52,9 +69,17 @@
 	    <div>
 	        <h5>Script Output</h5>
 	        <script src="js/lab.js"></script>
-	    </div>
-			<div id= content>
-	<img src="img/tacoma.jpg" alt="tacoma" width="400px" height="400px">
+
+					<div class="row">
+  <div class="column">
+  	<img src="img/tacoma.jpg" alt="tacoma" width="400px" height="400px">
+  </div>
+  <div class="column">
+    <img src="img/jeep.jpg" alt="jeep" width="500px" height="400px">
+  </div>
+  </div>
 </div>
+
+
 </body>
 </html>
