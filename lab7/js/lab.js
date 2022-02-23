@@ -4,22 +4,24 @@
  * License:   Public Domain
  */
 
+// sortUserName
+// a function that takes user input and sorts the letters
+// of their name
  function sortUserName (){
-          var userName = window.prompt("Yo! Gimme your name please! Let's make a new name for you!");
-          document.write ("userName = ", userName);
+        var userName = window.prompt("Yo! Gimme your name please! Let's make a new name for you!");
+          console.log("userName=",userName);
     // split string to array
           var nameArray = userName.split('');
-          document.write ("nameArray =", nameArray);
-    // sort the array
-          var nameArraySort = nameArray.sort();
-          document.write ("nameArraySort =", nameArraySort);
-    // join array back ta string
-          var nameSorted = namearraySort.join('');
-          document.write ("nameSorted =", nameSorted);
-    //userName.toLower().split("").sort().join("")
+          console.log("nameArray =",nameArray);
+    // sort array
+          var nameArraySort = nameArray.sort('');
+          console.log ("nameArraySort =", userName);
+    // join array back to string
+          var nameSorted = nameArraySort.join('');
+          console.log ("nameSorted =", nameSorted);
           return nameSorted;
 }
 
-// output
-document.writeln("Congrats on the new name!: ",
-    sortUserName(), "</br>");
+// script output
+document.writeln("Congrats on the new name!----",
+sortUserName(), "</br>");
