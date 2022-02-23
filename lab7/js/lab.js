@@ -12,12 +12,11 @@
           console.log("userName=",userName);
     // split string to array
           var nameArray = userName.split('');
-          console.log("nameArray =",nameArray);
-    // sort array
-          var nameArraySort = nameArray.sort('');
-          console.log ("nameArraySort =", userName);
+          console.log("nameArray =", nameArray);
+          var nameArraySort = nameArray.sort();
+          console.log ("nameArraySort =", nameArraySort);
     // join array back to string
-          var nameSorted = nameArraySort.join('');
+          var nameSorted = nameArraySort.join('').toUpperCase();
           console.log ("nameSorted =", nameSorted);
           return nameSorted;
 }
