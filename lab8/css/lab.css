@@ -26,10 +26,12 @@
  header, footer {
    background: #FFA9A9;
    height: 20vh;
+   font-size: 20px;
+   font-family: monospace;
 
  }
-header {
-  font-style: bold;
+
+article {
   font-size: 20px;
   font-family: monospace;
 }
