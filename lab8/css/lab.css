@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient( 	#7CFC00, #F9FFB0, #F2FF52) fixed;
+  background: linear-gradient( 	#21307B, #C33F8B, #E074EC) fixed;
 
 }
 
@@ -16,6 +16,14 @@ p {
   font-size: 100%;
 }
 
+div container{
+  border: 2px dotted black;
+  background-color: #EEA4F7;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
 
 ol {
   font-family: cursive;
@@ -29,13 +37,13 @@ ol {
 
 .navbar {
   overflow: hidden;
-  background-color: #fffde8;
+  background-color: #E074EC;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #DA1B95;
+  color: #E074EC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -58,13 +66,13 @@ ol {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #cbfcef;
+  background-color: #ffffff;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fffde8;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -80,7 +88,7 @@ ol {
 }
 
 .dropdown-content a:hover {
-  background-color: #d4a7f2;
+  background-color: #E074EC;
 }
 
 .dropdown:hover .dropdown-content {
