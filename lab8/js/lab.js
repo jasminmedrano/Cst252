@@ -24,3 +24,6 @@ var result = array.map(function(x){
 })
 // should return [20, 80, 1134, 4166, 76, 3, 138]
 console.log("Multiply of Array:", result);
+
+var outputEl = document.getElementById("output");
+// outputEl.innerHTML = mapResults;
