@@ -4,13 +4,13 @@
  * License:   Public Domain
  */
 
-var oneEl = document.getElementById("output");
+var outputEl = document.getElementById("output");
 
 
 
 
-
-var oneEl = document.createElement("button")
+//creates a blue "Click here" button for oneEl
+var oneEl = document.createElement("button");
 outputEl.appendChild(oneEl)
 oneEl.innerHTML = "Click here";
 oneEl.style.fontsize = "20px";
@@ -19,8 +19,8 @@ oneEl.style.color = "white";
 
 
 
-
-var twoEl = document.createElement("button")
+//creates a purple "Press me!" button for twoEl
+var twoEl = document.createElement("button");
 outputEl.appendChild(twoEl)
 twoEl.innerHTML = "Press me!";
 twoEl.style.fontsize = "20px";
