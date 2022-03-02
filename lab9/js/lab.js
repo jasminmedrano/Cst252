@@ -3,5 +3,7 @@
  * Created:   03. 01.2022
  * License:   Public Domain
  */
-
-newEl.style.backgroundColor = ""
+oneEl.innerHTML = "button text here"; 'here as well'
+oneEl.style.fontsize = "insert size here"; 'here as well'
+oneEl.style.backgroundColor = "insert color here"
+oneEl.style.color = "insert color here"
