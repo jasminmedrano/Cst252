@@ -14,7 +14,7 @@ var oneEl = document.createElement("button");
 outputEl.appendChild(oneEl)
 oneEl.innerHTML = "Click here";
 oneEl.style.fontsize = "20px";
-oneEl.style.backgroundColor = "green"
+oneEl.style.backgroundColor = "blue";
 oneEl.style.color = "white";
 
 
@@ -24,5 +24,5 @@ var twoEl = document.createElement("button");
 outputEl.appendChild(twoEl)
 twoEl.innerHTML = "Press me!";
 twoEl.style.fontsize = "20px";
-twoEl.style.backgroundColor = "purple"
+twoEl.style.backgroundColor = "purple";
 twoEl.style.color = "white"
