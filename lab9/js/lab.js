@@ -4,7 +4,7 @@
  * License:   Public Domain
  */
 
-var outputEl = getElementById("button")
+var oneEl = document.getElementById("output");
 
 
 
@@ -22,17 +22,7 @@ oneEl.style.color = "white";
 
 var twoEl = document.createElement("button")
 outputEl.appendChild(twoEl)
-oneEl.innerHTML = "Press me!";
-oneEl.style.fontsize = "20px";
-oneEl.style.backgroundColor = "purple"
-oneEl.style.color = "white"
-
-
-
-
-
-
-oneEl.innerHTML = "button text here"; 'here as well'
-oneEl.style.fontsize = "insert size here"; 'here as well'
-oneEl.style.backgroundColor = "insert color here"
-oneEl.style.color = "insert color here"
+twoEl.innerHTML = "Press me!";
+twoEl.style.fontsize = "20px";
+twoEl.style.backgroundColor = "purple"
+twoEl.style.color = "white"
