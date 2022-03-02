@@ -15,7 +15,7 @@ outputEl.appendChild(oneEl)
 oneEl.innerHTML = "Click here!";
 oneEl.style.fontsize = "20px";
 oneEl.style.backgroundColor = "pink";
-oneEl.style.color = "white";
+oneEl.style.color = "black";
 
 
 
