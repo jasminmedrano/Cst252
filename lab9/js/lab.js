@@ -9,7 +9,7 @@ var outputEl = document.getElementById("output");
 
 
 
-//creates a blue "Click here" button for oneEl
+//creates a pink "Click here!" button for oneEl
 var oneEl = document.createElement("button");
 outputEl.appendChild(oneEl)
 oneEl.innerHTML = "Click here!";
@@ -19,7 +19,7 @@ oneEl.style.color = "black";
 
 
 
-//creates a purple "Press me!" button for twoEl
+//creates a purple "No click here!" button for twoEl
 var twoEl = document.createElement("button");
 outputEl.appendChild(twoEl)
 twoEl.innerHTML = "No click here!";
