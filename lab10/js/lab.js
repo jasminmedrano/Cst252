@@ -23,13 +23,8 @@
 
 
 
-
-buttonEl.addEventListener("click", function(){
-  var name = prompt("Your name?");
-  var title = document.getElementById('name');
-  titleEl.innerHTML = name;
-})
-
-var outputEl = document.getElementById("output");
-var titleEl = document.getElementById("name");
-var buttonEl = getElementbyId("my-button");
+var button = document.getElementById('my-button');
+button.addEventListener('click', function() {
+  inputValue = document.getElementById('my-input').value;
+  console.log("You input:", inputValue);
+});
