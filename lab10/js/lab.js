@@ -24,22 +24,12 @@
 
 
 
-
- 
-var outputEl = document.getElementById("output")
-
-outputEl.addEventListener("click", function(){
-  //get userName
-  var name = prompt("insert whatever here");
-  //find the h1 called name
+buttonEl.addEventListener("click", function(){
+  var name = prompt("Your name?");
   var title = document.getElementById('name');
-  // put username in the h1
-  title.innerHTML = name;
-})
-
-
-buttonEl.addEventListener("click".function(){
-  var name = inputEl.value;
-//get userName
   titleEl.innerHTML = name;
 })
+
+var outputEl = document.getElementById("output");
+var titleEl = document.getElementById("name");
+var buttonEl = getElementbyId("my-button");
