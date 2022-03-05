@@ -7,24 +7,26 @@
  // sortUserName
  // a function that takes user input and sorts the letters
  // of their name
- function sortUserName (){
-        var userName = window.prompt("Yo! Gimme your name please! Let's make a new name for you!");
-          console.log("userName=",userName);
-    // split string to array
-          var nameArray = userName.split('');
-          console.log("nameArray =", nameArray);
-          var nameArraySort = nameArray.sort();
-          console.log ("nameArraySort =", nameArraySort);
-    // join array back to string
-          var nameSorted = nameArraySort.join('').toUpperCase();
-          console.log ("nameSorted =", nameSorted);
-          return nameSorted;
-}
+  function sortUserName (){
+         var userName = window.prompt("Yo! Gimme your name please! Let's make a new name for you!");
+           console.log("userName=",userName);
+     // split string to array
+           var nameArray = userName.split('');
+           console.log("nameArray =", nameArray);
+           var nameArraySort = nameArray.sort();
+           console.log ("nameArraySort =", nameArraySort);
+     // join array back to string
+           var nameSorted = nameArraySort.join('').toUpperCase();
+           console.log ("nameSorted =", nameSorted);
+           return nameSorted;
+ }
 
-
+ // script output
+ document.writeln("Congrats on the new name!----",
+ sortUserName(), "</br>");
 
 var button = document.getElementById('my-button');
 button.addEventListener('click', function() {
-  inputValue = document.getElementById('my-input').value;
+  inputValue = document.getElementById('input').value;
   console.log("You input:", inputValue);
 });
