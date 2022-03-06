@@ -26,6 +26,5 @@
 var buttonEl = document.getElementById('my-button');
 buttonEl.addEventListener('click', function() {
   inputValue = document.getElementById('input') = value;
-  titleEl.innerHTML = value;
   console.log("You input:", inputValue);
 });
