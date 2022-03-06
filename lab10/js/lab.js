@@ -23,8 +23,9 @@
 
 
 
-var button = document.getElementById('my-button');
-button.addEventListener('click', function() {
+var buttonEl = document.getElementById('my-button');
+buttonEl.addEventListener('click', function() {
   inputValue = document.getElementById('input').value;
+  titleEl.innerHTML.value;
   console.log("You input:", inputValue);
 });
