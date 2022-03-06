@@ -21,6 +21,16 @@
  }
 
 
+ function main() {
+    var userName = getName();
+     document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
+    var sortedName = sortUserName(userName);
+     document.writeln("Here's your sorted name: " + sortedName + "</br></br>");
+    var randomName = randomizeName(userName);
+     document.writeln("And oh hey, I fixed your name.<br>Your new one is above.");
+     document.writeln("<div class='name'>" + randomName + "</div>")
+ }
+
 var button = document.getElementById('my-button');
 button.addEventListener('click', function() {
   inputValue = document.getElementById('input').value;
