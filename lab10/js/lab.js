@@ -24,8 +24,8 @@
 document.getElementById("my-button").addEventListener
 ("click", userName);
 
-function displayDate() {
-  document.getElementById("demo").innerHTML = value;
+function userName() {
+  document.getElementById("input").innerHTML = value;
 }
 
 
