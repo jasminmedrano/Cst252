@@ -4,26 +4,22 @@
  * License:   Public Domain
  */
 
- // sortUserName
- // a function that takes user input and sorts the letters
+ // sortUserName - a function that takes user input and sorts the letters
  // of their name
-  function sortUserName (){
-         var userName = window.prompt("Yo! Gimme your name please! Let's make a new name for you!");
-           console.log("userName=",userName);
-     // split string to array
-           var nameArray = userName.split('');
-           console.log("nameArray =", nameArray);
-           var nameArraySort = nameArray.sort();
-           console.log ("nameArraySort =", nameArraySort);
-     // join array back to string
-           var nameSorted = nameArraySort.join('').toUpperCase();
-           console.log ("nameSorted =", nameSorted);
-           return nameSorted;
+ function randomizeName(userName) {
+   // convert userName string to an array
+     var nameArray = userName.toLowerCase().split("");
+     console.log("nameArray =", nameArray);
+  // shuffle array with our shuffle function
+     var shuffledArray = shuffleArray(nameArray);
+     console.log("shuffledArray =", shuffledArray);
+     var shuffledString = shuffledArray.join("");
+ // shift to Title Case (like a name)
+     var newName = toTitleCase(shuffledString);
+  // return array to a string
+     return newName;
  }
 
- // script output
- document.writeln("Congrats on the new name!----",
- sortUserName(), "</br>");
 
 var button = document.getElementById('my-button');
 button.addEventListener('click', function() {
