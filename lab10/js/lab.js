@@ -8,7 +8,7 @@
   // a function that takes user input and sorts the letters
   // of their name
    function sortUserName (){
-          var userName = ("user-name");
+          var userName = userName.toLowerCase();
             console.log("userName=",userName);
       // split string to array
             var nameArray = userName.split('');
