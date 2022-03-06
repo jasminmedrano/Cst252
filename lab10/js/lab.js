@@ -4,6 +4,27 @@
  * License:   Public Domain
  */
 
+ // sortUserName
+ //  a function that takes user input and sorts the letters
+ //  of their name
+ function sortUserName(userName) {
+     // // convert to lower case
+    userName = userName.toLowerCase();
+    console.log("userName =", userName);
+     // // split string to array
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
+     // // sort the array
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
+     // // join array back to a string
+   var nameSorted = nameArraySort.join('');
+   console.log("nameSorted =", nameSorted);
+     // // Note that I could have done the above lines as a single line:
+   userName.toLowerCase().split("").sort().join("")
+   return userName.toLowerCase().split("").sort().join("");
+ }
+
  // sortUserName - a function that takes user input and sorts the letters
  // of their name
  function randomizeName(userName) {
@@ -30,6 +51,9 @@
      document.writeln("And oh hey, I fixed your name.<br>Your new one is above.");
      document.writeln("<div class='name'>" + randomName + "</div>")
  }
+
+
+
 
 var button = document.getElementById('my-button');
 button.addEventListener('click', function() {
