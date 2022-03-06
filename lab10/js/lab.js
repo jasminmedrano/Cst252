@@ -21,6 +21,13 @@
             return nameSorted;
   }
 
+document.getElementById("my-button").addEventListener
+("click", userName);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+
 
 
 var buttonEl = document.getElementById('my-button');
