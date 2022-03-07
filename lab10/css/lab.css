@@ -1,18 +1,19 @@
 body {
-  background: linear-gradient( 	#067a8f, #14b305, #067a8f) fixed;
+  background-image: url(https://i.pinimg.com/originals/82/ff/fa/82fffadc3d49fb45dd2b7498a9a958c9.gif);
+  background-size: cover;
 
 }
 
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Trebuchet MS;
-  color: black;
+  color: #d0f788;
   font-size: 200%;
 }
 
 p {
   font-family: Trebuchet MS;
-  color: black;
+  color: #d0f788;
   font-size: 100%;
 }
 
