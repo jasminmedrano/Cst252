@@ -1,27 +1,7 @@
 body {
-  background-image: url(https://i.pinimg.com/originals/82/ff/fa/82fffadc3d49fb45dd2b7498a9a958c9.gif);
-  background-size: cover;
+  background:  linear-gradient(to right	#fee55d, #ef7acf, #7f4adf);
 
 }
-
-.namebadge {
-  float: right;
-  width: 400px;
-}
-
-.namebadge img {
-  width: 100%;
-  height: auto;
-}
-
-#name-results {
-  position: absolute;
-  word-wrap: break-word;
-  font-family: Trebuchet MS;
-  font-size: 50px;
-  color: red;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-family: Trebuchet MS;
   color: black;

@@ -7,21 +7,47 @@
  // sortUserName
   // a function that takes user input and sorts the letters
   // of their name
-   function sortUserName (){
-          var userName = userName.toUpperCase();
-            console.log("userName=",userName);
-      // split string to array
-            var nameArray = userName.split('');
-            console.log("nameArray =", nameArray);
-            var nameArraySort = nameArray.sort();
-            console.log ("nameArraySort =", nameArraySort);
-      // join array back to string
-            var nameSorted = nameArraySort.join('').toUpperCase();
-            console.log ("nameSorted =", nameSorted);
-            return nameSorted;
-  }
+   function shuffleArray(array) {
+     var currentIndex = array.lenght, tempporaryValue, randomIndex;
 
-  var buttonEl = document.getElementById('my-button');
-  buttonEl.addEventListener("click", function() {
-    document.getElementById("input").innerHTML = output;
-  });
+     while (0 !== currentIndex) {
+
+       randomIndex = Math.floor(Math.random() * currentIndex);
+       currentIndex -= 1;
+
+       tempporaryValue = array[currentIndex];
+       array[currentIndex] = array[randomIndex];
+       array[randomIndex] = tempporaryValue;
+       }
+     return array;
+   }
+
+function reorderUserName(word) {
+  var wordArray = word.toLowerCase().split('');
+  var newArray = shuffleArray(wordArray);
+  return newArray.join('');
+}
+
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+
+buttonEl = document.getElementById('my-button');
+console.log("button element:", buttonEl);
+
+inputEl = document.getElementById("user-name");
+console.log("input element:", inputEl);
+
+outputEl = document.getElementById("output");
+console.log("output element:", outputEl)
+
+buttonEl.addEventListener("click", function (){
+  var userName = inputEl.value;
+  var newName = toTitleCase(reorderUserName(userName));
+  outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
+});
