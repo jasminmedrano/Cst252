@@ -6,14 +6,18 @@
 
 var bioEl = $(".main")
 // assign variable bioEl
+
+
 $(".main").append("<button id=my-button>Something");
 // creates a button
 $("#my-button");
-// create button
+// create a button
 $("#my-button").click(function() {
   alert("More of something");
 })
 // alert pops up on screen
+
+
 $("#my-button").css("background-color", "#79c468");
 // changes background color of button
 $("#my-button").css("color", "white");
