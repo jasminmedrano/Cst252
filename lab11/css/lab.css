@@ -1,5 +1,6 @@
 body {
-  background:  linear-gradient(to right	#fee55d, #ef7acf, #7f4adf);
+  background-image:  url("https://images.squarespace-cdn.com/content/v1/5dda9f2de3177e778547286c/1574627564010-MI6CFS72ASDSU6NH1Y3P/forest.gif?format=1500w");
+  background-size: cover;
 
 }
 h1,h2,h3,h4,h5,h6 {
