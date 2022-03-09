@@ -4,7 +4,7 @@
  * License:   Public Domain
  */
 
-var bioEl = $(".main")
+var bioEl = $(".main");
 // assign variable bioEl
 
 
