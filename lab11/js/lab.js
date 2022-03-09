@@ -8,12 +8,12 @@ var bioEl = $(".main");
 // assign variable bioEl
 
 
-$(".main").append("<button id=my-button>Something");
+$(".main").append("<button id=my-button>Don't Click Me!");
 // creates a button
 $("#my-button");
 // create a button
 $("#my-button").click(function() {
-  alert("More of something");
+  alert("I told you not to click me, you st*pid wh*re");
 })
 // alert pops up on screen
 
