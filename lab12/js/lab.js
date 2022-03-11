@@ -5,19 +5,19 @@
  */
 
 
-// find red button and add click handler
+// find pink button and add click handler
 $("#challenge-button").click(function(){
-	// remove blue class
-  $("#the-text1").removeClass("blue");
-	// toggle red class for text
-  $("#the-text1").toggleClass("red");
+	// remove yellow class
+  $("#the-text1").removeClass("yellow");
+	// toggle pink class for text
+  $("#the-text1").toggleClass("pink");
 })
 
 
-// find green button and add click handler
+// find yellow button and add click handler
 $("#challenge2-button").click(function(){
-	// remove red class
-  $("#the-text2").removeClass("red");
-	// toggle blue class for text
-  $("#the-text2").toggleClass("blue");
+	// remove pink class
+  $("#the-text2").removeClass("pink");
+	// toggle yellow class for text
+  $("#the-text2").toggleClass("yellow");
 })

@@ -1,27 +1,30 @@
 body {
-  background-image:  url("https://cdn.dribbble.com/users/5031/screenshots/2095627/snp-2.gif");
+  background-image:  url("https://i.pinimg.com/originals/b8/bf/59/b8bf59f2b635ffcf4ad5263f1a7a3efe.gif");
   background-size: cover;
 
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: Trebuchet MS;
-  color: #79c468;
+  color: black;
   font-size: 200%;
 }
 
-.blue {
-  color: blue;
+.yellow {
+  color: yellow;
+  direction: rtl;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.pink {
+  color: pink;
+  font-family: Impact;
   direction: rtl;
 }
 
-.red {
-  color: maroon;
-  direction: rtl;
-}
- 
 p {
   font-family: Trebuchet MS;
-  color: white;
+  color: black;
   font-size: 100%;
 }
 
@@ -34,7 +37,7 @@ p {
 }
 
 button{
-  background-color: #79c468;
+  background-color: black;
   color: white;
 }
 
