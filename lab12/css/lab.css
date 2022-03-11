@@ -1,0 +1,100 @@
+body {
+  background-image:  url("hhttps://cdn.dribbble.com/users/5031/screenshots/2095627/snp-2.gif");
+  background-size: cover;
+
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Trebuchet MS;
+  color: #79c468;
+  font-size: 200%;
+}
+
+p {
+  font-family: Trebuchet MS;
+  color: white;
+  font-size: 100%;
+}
+
+.box{
+  border: 2px dotted black;
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+button{
+  background-color: #79c468;
+  color: white;
+}
+
+ol {
+  font-family: Trebuchet MS;
+  color: black;
+  font-size: 100%;
+}
+
+.imgButton{
+    text-align:center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #79c468;
+}
+
+.navbar a {
+  font-family: Trebuchet MS;
+  float: left;
+  font-size: 16px;
+  color: #79c468;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #79c468;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
