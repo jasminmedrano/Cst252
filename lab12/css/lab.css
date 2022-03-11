@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6 {
   color: #79c468;
   font-size: 200%;
 }
+.red{
+  color: maroon;
+}
 
 p {
   font-family: Trebuchet MS;
