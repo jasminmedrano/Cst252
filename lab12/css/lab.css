@@ -1,11 +1,11 @@
 body {
-  background-image:  url("https://i.pinimg.com/originals/b8/bf/59/b8bf59f2b635ffcf4ad5263f1a7a3efe.gif");
+  background-image:  url("https://giffiles.alphacoders.com/145/14553.gif");
   background-size: cover;
 
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: Trebuchet MS;
-  color: black;
+  color: white;
   font-size: 200%;
 }
 
@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   font-family: Trebuchet MS;
-  color: black;
+  color: white;
   font-size: 100%;
 }
 
