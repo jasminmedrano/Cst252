@@ -9,6 +9,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 200%;
 }
 
+img {
+  max-width: 300px;
+  height: auto;
+}
 
 p {
   font-family: Trebuchet MS;
