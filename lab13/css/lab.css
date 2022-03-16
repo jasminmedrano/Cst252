@@ -5,31 +5,11 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: Trebuchet MS;
-  color: white;
+  color: #f25C05;
   font-size: 200%;
 }
 
-.hidden {
-    visibility: hidden;
-}
 
-
-.output-box {
-    position: relative;
-}
-
-.teams-box {
-    float: right;
-    width: 400px;
-}
-
-#tail-box {
-    position: absolute;
-    top: 150px;
-    right: 252px;
-    width: 100px;
-    transform: scaleX(-1);;
-}
 
 img {
   max-width: 300px;
@@ -38,7 +18,7 @@ img {
 
 p {
   font-family: Trebuchet MS;
-  color: white;
+  color: #3038D9;
   font-size: 100%;
 }
 
@@ -50,10 +30,7 @@ p {
   padding-left: 100px;
 }
 
-button{
-  background-color: black;
-  color: white;
-}
+
 
 ol {
   font-family: Trebuchet MS;
