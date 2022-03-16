@@ -31,3 +31,8 @@ $("#my-button").click(function(){
  $("#output").html("Welcome! Your team is " + teams);
 
 });
+
+$("#output").css({ 'color': '#3038D9', 'font-size': '160%' });
+$("#br").css({ 'color': '#3038D9', 'font-size': '160%' });
+$("#my-button").css({ 'background-color': '#f25C05', 'font-size': '100%', 'color': 'white'});
+$("#input").css({ 'color': '#f25C05' });
