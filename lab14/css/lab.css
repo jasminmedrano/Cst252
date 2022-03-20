@@ -1,6 +1,7 @@
 body {
-  background-image:  url("https://images8.alphacoders.com/661/thumb-1920-661972.png");
+  background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJND7C9XyVXKBqhRHMk-JEwgSo5flvSsXjNvJLsOwdS6xgCtGdRdRMVn6uA3dieUeH11c&usqp=CAU");
   background-size: cover;
+
 
 }
 h1,h2,h3,h4,h5,h6 {
@@ -9,7 +10,21 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 200%;
 }
 
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    column-width: 200px;
+}
+
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: lightblue;
+}
 
 p {
   font-family: Trebuchet MS;
