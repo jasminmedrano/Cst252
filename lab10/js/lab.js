@@ -55,6 +55,7 @@ buttonEl.addEventListener("click", function(){
   var userName = inputEl.value;
   // modify value - either sort or shuffle
   var newName = toTitleCase(reorderUserName(userName));
+  debugger;
   // put value in output element
   outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
 });
