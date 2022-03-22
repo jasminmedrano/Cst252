@@ -12,9 +12,15 @@ body {
   color: #d0f788;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3 {
   font-family: Trebuchet MS;
   color: black;
+  font-size: 200%;
+}
+
+h4{
+  font-family: Trebuchet MS;
+  color: red;
   font-size: 200%;
 }
 
