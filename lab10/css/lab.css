@@ -4,22 +4,12 @@ body {
 
 }
 
-.namebadge {
-  float: right;
-  width: 400px;
-}
-
-.namebadge img {
-  width: 100%;
-  height: auto;
-}
-
 #name-results {
   position: absolute;
   word-wrap: break-word;
   font-family: Trebuchet MS;
   font-size: 50px;
-  color: red;
+  color: #d0f788;
 }
 
 h1,h2,h3,h4,h5,h6 {
