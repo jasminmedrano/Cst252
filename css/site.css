@@ -8,6 +8,19 @@ h1 {
   font-size: 200%;
 }
 
+#labpadding{
+  padding-bottom: 40px
+}
+
+.col-sm-3 {
+border: 1px black dashed;
+}
+
+
+.jumbotron{
+  background-color: #cbfcef;
+}
+
 p{
   font-family: cursive;
   color: #FA64C3;
