@@ -7,6 +7,10 @@ h1 {
   color: #FA64C3;
   font-size: 200%;
 }
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
 
 #labpadding{
   padding-bottom: 40px
@@ -23,7 +27,7 @@ border: 1px black dashed;
 
 p{
   font-family: cursive;
-  color: #FA64C3;
+  color: #8a0c7d;
 }
 
 li{
