@@ -2,10 +2,10 @@ body {
     background: radial-gradient(circle, #cbfcef, #fccbea) fixed;
 }
 
-h1 {
-  font-family: cursive;
-  color: #FA64C3;
-  font-size: 200%;
+h1, h2, h3, h4, h5, h6, h7, h8, h9{
+  color: black;
+  font-family: Rockwell;
+  font-size: 100%;
 }
 .navbar {
   margin-bottom: 0;
