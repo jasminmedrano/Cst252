@@ -4,24 +4,25 @@
  * License:   Public Domain
  */
 
- function Vehicle(make, model, year, color, extras, carquote) {
-  this.make = make;
-  this.model = model;
-  this.year = year;
-  this.color = color;
-  this.extras = extras;
-  this.carquote = carquote;
-  this.info = function() {
-    var str = "It's a " + color + " " + year + " " + make + " " + model + " with " + extras + " called " + carquote + ".";
-    return str;
-  }
+
+class Vehicle {
+   constructor(make, model, year, color, extras, name) {
+     this.make = make;
+     this.model = model;
+     this.year = year;
+     this.color = color;
+     this.extras = extras;
+     this.name = name;
+     this.info = function() {
+          return ("It was a " + this.make + " " + this.model + " " + this.year + " " + this.color + " with " + this.extras + " named " + this.name);
+    }
+}
 }
 
-var vehicles = [];
+
+var vehicle1 = new Vehicle("Toyota", "Tacoma", 2019, "white", "4x4", "Gangsta");
+var vehicle2 = new Vehicle("Jeep", "Patriot", 2010, "red", "emergency plushies inside", "I'm in my mums' car! Vroom Vroom");
 
 
-vehicles.push(new Vehicle("Toyota", "Tacoma", 2019, "white", "$70 for full gas tank", "my main Gangasta"));
-vehicles.push(new Vehicle("Jeep", "Patriot", 2010, "red", "$50 for full gas tank", "I'm in my mums' car vroom vroom!"));
-
-outputEl = document.getElementById("output");
-$("#output").append("<p>" + vehicles.info() + "</p>");
+  $("#output").append("<p>" + vehicle1.info() + "</p>");
+  $("#output").append("<p>" + vehicle2.info() + "</p>");

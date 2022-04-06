@@ -1,12 +1,17 @@
 body {
-    background: radial-gradient(circle, #cbfcef, #fccbea) fixed;
+  background-image:  url("https://c.tenor.com/XLnJxScKc3EAAAAC/car-animation.gif");
+  background-size: cover;
+
+
+
 }
 
 h1, h2, h3, h4, h5, h6, h7, h8, h9{
-  color: black;
+  color: white;
   font-family: Rockwell;
-  font-size: 100%;
+  font-size: 200%;
 }
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -30,12 +35,17 @@ border: 1px black dashed;
 
 
 .jumbotron{
-  background-color: #cbfcef;
+  background-color: #ac3562;
+}
+
+.jumbotron h1{
+  color: white;
 }
 
 p{
   font-family: cursive;
-  color: #8a0c7d;
+  color: white;
+  font-size: 20;
 }
 
 li{
