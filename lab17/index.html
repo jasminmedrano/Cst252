@@ -18,32 +18,173 @@
 		<div class="jumbotron">
 		  <div class="container text-center">
 		    <h1>Labs 17: Object-Oriented Design</h1>
-		    <p>Jasmin Medrano and Anthony Lopez-Zamora</p>
+		    <h2>Jasmin Medrano and Anthony Lopez-Zamora</h2>
 		  </div>
 		</div>
 
 		<div class="row">
 
 	 	 <div class="col-sm-3">
-	 		 <h2>Challenges</h2>
-	 		 <p>Skjl</p>
+	 		 <h3>Challenges</h3>
+	 		 <p>No challenges here.</p>
 	 	 </div>
 
 	 	 <div class="col-sm-3">
-	 		 <h3>Results</h3>
-	 		 <p>lkj.</p>
+	 		 <h4>Results</h4>
+	 		 <p>It was pretty easy and fun.</p>
 	 	 </div>
 
 	 	 <div class="col-sm-3">
-	 		 <h4>Hjvlkdf</h4>
+	 		 <h5>Output</h5>
 			 <ul id="output">
 			 </ul>
 		 </div>
 
-		 <div class="col-sm-3">
-		 	<h5>Odfkdf</h5>
+     <div class="col-sm-3">
+      <h7>Our Babes</h7>
+        <img src="img/tacoma.jpg" alt="tacoma" height="150px">
+        <img src="img/jeep.jpg" alt="jeep" height="100px">
+     </div>
 
-		 </div>
+     <div class="container-fluid bg-3 text-center">
+       <div class="row">
+
+
+         <div class="col-sm-3">
+           <h6>Understand the Problem</h6>
+           <p>
+<br>
+Set up the board.
+<br>
+Game loop starts.
+<br>
+Think of a word that will be guessed out by the other player (2).
+<br>
+Obtain remaining guesses from player (2).
+<br>
+If player (2) guesses incorrect, player will fail.
+<br>
+It adds a body part to the board if the player guesses incorrect.
+<br>
+Game loop restart if player falls and get all body parts on the hangman.
+<br>
+If player (2) guesses correct, player will success.
+<br>
+Remaining Guess is added to the board if player guess correctly.
+<br>
+If player gets the word correctly, the game ends.
+</p>
+</div>
+
+
+         <div class="col-sm-3">
+<h7>Pseudocode the High Level Approach</h7>
+<p>
+<br>
+Set up the board.
+<br>
+Set up the players.
+<br>
+Do the loop.
+<br>
+Establish a word.
+<br>
+Player starts playing game.
+<br>
+Get remaining guesses from player.
+<br>
+If player guesses wrong, then failed.
+<br>
+If player guesses right, then finished.
+<br>
+If failed, loop game plays again till success.
+</p>
+</div>
+
+<div class="col-sm-3">
+<h8>Assign Actions to Objects</h8>
+<p>
+<br>
+Set up the board. [Board]
+<br>
+Set up the players.[Player 1, Player 2]
+<br>
+Do the loop. [Hangman]
+<br>
+Establish a word. [Board]
+<br>
+Player starts playing game. [Player1]
+<br>
+Get remaining guesses from player. [Guess]
+<br>
+If player guesses wrong, then failed. [Guess]
+<br>
+If player guesses right, then finished.[Guess]
+<br>
+If failed, loop game plays again till success. [Hangman]
+</p>
+</div>
+
+
+<div class="col-sm-3">
+		 	<h9>Make Javascript-ish Pseudocode</h9>
+ <p>
+  <br>
+ // Board controls all game play
+  <br>
+ //class HangMan
+  <br>
+   // initialize
+  <br>
+ //constructor (name1, name2)
+  <br>
+   // set up the board
+  <br>
+ //this.board = new board()
+  <br>
+ // set up a word
+  <br>
+ //this.word = new word (word, this.board)
+  <br>
+ //set up players
+  <br>
+//this.player1 = new Player(name1, 1, this.board)
+  <br>
+ //this.player2 = new Player(name2, 2, this.board)
+  <br>
+ // set up remaining Guesses
+  <br>
+ //this.remainingGuesses = new remainingGuesses;
+  <br>
+ // start play method
+  <br>
+ //this.status = "Playing"
+  <br>
+ // loop infinitely
+  <br>
+  //while (true)
+  <br>
+ // call the board rendering method
+  <br>
+  //this.board.render()
+  <br>
+   // ask for guesses from the current player
+  <br>
+   //current_player.get_guesses()
+  <br>
+  //if (this.remainingGuesses === 0)
+  <br>
+    //this.status = "Failed";
+  <br>
+   //else if (finsished)
+   <br>
+    //this.status = "Finished";
+  <br>
+    //this.status = "Playing";
+      </p>
+  	 </div>
+
+
 		 </div>
 
 
