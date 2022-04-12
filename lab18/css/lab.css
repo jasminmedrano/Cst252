@@ -13,9 +13,11 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, h10{
 }
 
 .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+  border: 1px dashed;
+  color: #563B80;
   background-color: #ffd1f2;
+  overflow: auto;
+
 }
 
 
@@ -31,21 +33,24 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, h10{
 
 
 }
+
 .col-sm-3 {
 border: 1px dashed;
 color: #563B80;
-
 }
 
 
 .jumbotron{
   background-color: #ee9cff;
+  background-size: cover;
+    background-repeat: no-repeat;
 
 
 }
 
 .jumbotron h1{
   color: #563B80;
+
 }
 
 p{
