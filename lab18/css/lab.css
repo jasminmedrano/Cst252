@@ -1,0 +1,60 @@
+body {
+  background-color:  #ffd1f2;
+  background-size: cover;
+
+
+
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10{
+  color: #563B80;
+  font-family: Rockwell;
+  font-size: 200%;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #ffd1f2;
+}
+
+
+
+.homelink {
+    text-align: left;
+}
+
+
+
+.sourcelink{
+    float: right;
+
+
+}
+.col-sm-3 {
+border: 1px dashed;
+color: #563B80;
+
+}
+
+
+.jumbotron{
+  background-color: #ee9cff;
+
+
+}
+
+.jumbotron h1{
+  color: #563B80;
+}
+
+p{
+  font-family: cursive;
+  color: #563B80;
+  font-size: 20;
+}
+
+li{
+  font-family: cursive;
+  color: #FA64C3;
+}
