@@ -4,40 +4,46 @@
  * License:   Public Domain
  */
 //url api
-var url = "https://api.nasa.gov/planetary/apod";
-var apiKey = "CrRSg5Bgo1pZ3hPTGmkOb1NGsfcserHoc8ZFdB7t";
+var url =" ";
+var apiKey=" ";
+$.ajax({
+month: "4",
+num: 2610,
+link: "",
+year: "2022",
+news: "",
+safe_title: "Assigning Numbers",
+transcript: "",
+alt: "Gödel should do an article on which branches of math have the lowest average theorem number.",
+img: "https://imgs.xkcd.com/comics/assigning_numbers.png",
+title: "Assigning Numbers",
+day: "22"
+});
+
+$.ajax({
+  dataType: 'json',
+  url: imageUrl,
+  data: data,
+  type: "GET",
+  success: function(data) {
+    // do stuff
+    console.log(data);
+  }
+});
+
+$("#press-me").click(getAjax);
 
 
-// use a jQuery AJAX call to fetch output from the numbers API
-function getAjax() {
-  // Using the core $.ajax() method
-  $.ajax({
-      // The URL for the request
-      url: url,
-      // The data to send (will be converted to a query string)
-      data: {
-      	api_key: apiKey,
-        count: 1
-      },
-      // Whether this is a POST or GET request
-      type: "GET",
-      // The type of data we expect back
-      // dataType : "json",
-  })
 
-  // If the request succeeds
-   .done(function( data ) {
-       //alert("Success!");
-       thisData = data[0];
-       console.log(data);
-       fullUrl = thisData.url;
-       // Insert the output in the output div
-
-       $("#output").html("<h3>" + thisData.title);
-       $("#output").append("<img src=" + fullUrl + ">");
-   })
-   // If the request fails
-   .fail(function( xhr, status, errorThrown ) {
-       console.log(errorThrown + " Status:" + status );
-   });
- }
+// If the request succeeds
+.done(function( json ) {
+    alert("Success!");
+    var title = data.title;
+    var imageUrl = data.img;
+    var alt = data.alt;
+    $("#output").html(html);
+})
+// If the request fails
+.fail(function() {
+    console.log(errorThrown + " Status:" + status );
+});
