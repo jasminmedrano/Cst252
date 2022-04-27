@@ -3,47 +3,53 @@
  * Created:   04.24.2022
  * License:   Public Domain
  */
-//url api
-var url =" ";
-var apiKey=" ";
-$.ajax({
-month: "4",
-num: 2610,
-link: "",
-year: "2022",
-news: "",
-safe_title: "Assigning Numbers",
-transcript: "",
-alt: "Gödel should do an article on which branches of math have the lowest average theorem number.",
-img: "https://imgs.xkcd.com/comics/assigning_numbers.png",
-title: "Assigning Numbers",
-day: "22"
-});
 
-$.ajax({
-  dataType: 'json',
-  url: imageUrl,
-  data: data,
-  type: "GET",
-  success: function(data) {
-    // do stuff
-    console.log(data);
-  }
-});
+ // Pick an URL from the numbers API: http://numbersapi.com/
+ //var url = "http://numbersapi.com/random/trivia";
+ //var url = "https://cataas.com/cat?json=true";
+ //var domain = "https://cataas.com";
+ var url = "https://api.harvardartmuseums.org/object";
+ var apiKey = "f76bf3ec-0d1d-4a13-b4f6-4d91474a2001";
 
-$("#press-me").click(getAjax);
+ // When a user clicks the button
+ $("#press-me").click(getAjax);
 
-
-
-// If the request succeeds
-.done(function( json ) {
-    alert("Success!");
-    var title = data.title;
-    var imageUrl = data.img;
-    var alt = data.alt;
-    $("#output").html(html);
-})
-// If the request fails
-.fail(function() {
-    console.log(errorThrown + " Status:" + status );
-});
+ // use a jQuery AJAX call to fetch output from the numbers API
+ function getAjax() {
+   // Using the core $.ajax() method
+   $.ajax({
+       // The URL for the request
+       url: url,
+       // The data to send (will be converted to a query string)
+       data: {
+       	apikey: apiKey,
+         q:"totalpageviews:0",
+         size:1
+       },
+       // Whether this is a POST or GET request
+       type: "GET",
+       // The type of data we expect back
+       // dataType : "json",
+   })
+   // If the request succeeds
+   .done(function( data ) {
+       //alert("Success!");
+       console.log(data);
+       // Grab the record from this data
+       var thisRecord = data.records[0];
+       // get the info we want
+       var imgurl = thisRecord.images[0].baseimageurl;
+       console.log("imageurl", imgurl)
+       var title = thisRecord.title;
+       var desc = thisRecord.description;
+       // Insert the output in the output div
+       // $("#output").html("<pre>" + JSON.stringify(data, null, "\t"));
+       $("#output").html("<h2>" + title);
+       $("#output").append("<img src=" + imgurl + ">");
+       $("#output").append("<p>" + desc);
+   })
+   // If the request fails
+   .fail(function( xhr, status, errorThrown ) {
+       console.log(errorThrown + " Status:" + status );
+   });
+ }
